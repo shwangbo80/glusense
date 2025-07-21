@@ -90,7 +90,7 @@ export default function MedicationsPage() {
  return (
   <div className="w-full">
    <div className="p-6 space-y-8 max-w-7xl mx-auto">
-    <h1 className="text-2xl font-bold text-gray-900 mb-6">💊 Medications</h1>
+    <h1 className="text-2xl font-bold text-gray-900 mb-6">Medications</h1>
 
     {/* Current Medications Overview */}
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
