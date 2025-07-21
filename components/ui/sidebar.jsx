@@ -21,8 +21,8 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors mt-7 ${
-        isActive("/dashboard") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors mt-7 ${
+        isActive("/dashboard") ? "font-bold bg-blue-100 text-blue-900" : ""
        }`}
       >
        Dashboard
@@ -31,8 +31,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/glucose"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/glucose") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/glucose")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Glucose Tracking
@@ -41,8 +43,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/medications"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/medications") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/medications")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Medications
@@ -51,8 +55,8 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/food"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/food") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/food") ? "font-bold bg-blue-100 text-blue-900" : ""
        }`}
       >
        Food & Nutrition
@@ -61,8 +65,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/exercise"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/exercise") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/exercise")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Exercise & Activity
@@ -71,8 +77,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/reports"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/reports") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/reports")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Reports & Analytics
@@ -81,8 +89,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/appointments"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/appointments") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/appointments")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Appointments
@@ -91,8 +101,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/alerts"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/alerts") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/alerts")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Alerts & Reminders
@@ -101,8 +113,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/dashboard/settings"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/settings") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/settings")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Settings
@@ -111,8 +125,10 @@ export default function Sidebar() {
      <div className="w-full">
       <Link
        href="/login"
-       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-blue-700 hover:text-blue-700 transition-colors ${
-        isActive("/dashboard/logout") ? "font-bold bg-blue-50" : ""
+       className={`block w-full p-3 text-left hover:bg-blue-100 rounded-md text-black-700 hover:text-black-700 transition-colors ${
+        isActive("/dashboard/logout")
+         ? "font-bold bg-blue-100 text-blue-900"
+         : ""
        }`}
       >
        Logout
